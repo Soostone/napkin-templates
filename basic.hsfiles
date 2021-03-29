@@ -1,0 +1,22 @@
+{-# START_FILE napkin.yaml #-}
+
+name:                {{name}}
+version:             0.1
+author:              {{USER}}
+
+{-# START_FILE README.md #-}
+
+Napkin project {{name}} is generated from a template.
+
+{-# START_FILE specs/README.md #-}
+
+Meta information about tables in the system
+such as dependency between them.
+
+{-# START_FILE haskell/README.md #-}
+
+Place for custom logic expressed in Haskell.
+
+{-# START_FILE sql/README.md #-}
+
+Keep files with SQL queries.
